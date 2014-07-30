@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="TTActivity" representedClassName="TTActivity" syncable="YES">
+        <attribute name="activityId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="activityName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TTEntry" representedClassName="TTEntry" syncable="YES">
+        <attribute name="activityId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="projectCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarks" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="taskDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticketId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="TTProject" representedClassName="TTProject" syncable="YES">
+        <attribute name="projectCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="projectusers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TTUser" inverseName="userprojects" inverseEntity="TTUser" syncable="YES"/>
+    </entity>
+    <entity name="TTUser" representedClassName="TTUser" syncable="YES">
+        <attribute name="empDesignation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="empId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="empName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="empPassword" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="directReports" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TTUser" inverseName="managers" inverseEntity="TTUser" syncable="YES"/>
+        <relationship name="managers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TTUser" inverseName="directReports" inverseEntity="TTUser" syncable="YES"/>
+        <relationship name="userprojects" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TTProject" inverseName="projectusers" inverseEntity="TTProject" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TTActivity" positionX="-90" positionY="-216" width="128" height="73"/>
+        <element name="TTEntry" positionX="-54" positionY="-70" width="128" height="133"/>
+        <element name="TTProject" positionX="-315" positionY="-144" width="128" height="88"/>
+        <element name="TTUser" positionX="-522" positionY="-99" width="128" height="150"/>
+    </elements>
+</model>

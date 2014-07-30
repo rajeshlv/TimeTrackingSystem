@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/experiontts/!svn/ver/14/trunk/source/TimeTrackingSystem/TimeTrackingSystem/utilities/Categories
+END
+NSDate+Utilities.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/experiontts/!svn/ver/10/trunk/source/TimeTrackingSystem/TimeTrackingSystem/utilities/Categories/NSDate+Utilities.m
+END
+NSFileManager+TTDirectories.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/experiontts/!svn/ver/14/trunk/source/TimeTrackingSystem/TimeTrackingSystem/utilities/Categories/NSFileManager+TTDirectories.h
+END
+NSManagedObject+TTAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/experiontts/!svn/ver/14/trunk/source/TimeTrackingSystem/TimeTrackingSystem/utilities/Categories/NSManagedObject+TTAdditions.m
+END
+NSFileManager+TTDirectories.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/experiontts/!svn/ver/14/trunk/source/TimeTrackingSystem/TimeTrackingSystem/utilities/Categories/NSFileManager+TTDirectories.m
+END
+NSDate+Utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/experiontts/!svn/ver/10/trunk/source/TimeTrackingSystem/TimeTrackingSystem/utilities/Categories/NSDate+Utilities.h
+END
+NSManagedObject+TTAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/experiontts/!svn/ver/14/trunk/source/TimeTrackingSystem/TimeTrackingSystem/utilities/Categories/NSManagedObject+TTAdditions.h
+END

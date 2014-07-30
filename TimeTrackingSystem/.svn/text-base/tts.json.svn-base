@@ -1,0 +1,64 @@
+{
+    "Activities": [
+        {
+            "activityId": 1,
+            "activityName": "Audit"
+        },
+        {
+            "activityId": 2,
+            "activityName": "CodeReview"
+        },
+        {
+            "activityId": 3,
+            "activityName": "CodeRework"
+        },
+        {
+            "activityId": 4,
+            "activityName": "Coding"
+        },
+        {
+            "activityId": 5,
+            "activityName": "CustomerSupport"
+        },
+        {
+            "activityId": 6,
+            "activityName": "Designpreparation"
+        },
+        {
+            "activityId": 7,
+            "activityName": "DesignReview"
+        },
+        {
+            "activityId": 8,
+            "activityName": "DesignRework"
+        },
+        {
+            "activityId": 9,
+            "activityName": "Documentation"
+        },
+        {
+            "activityId": 10,
+            "activityName": "Estimation"
+        },
+        {
+            "activityId": 11,
+            "activityName": "FRS-Preparation"
+        },
+        {
+            "activityId": 12,
+            "activityName": "FRS-Review"
+        },
+        {
+            "activityId": 13,
+            "activityName": "FRS-Rework"
+        },
+        {
+            "activityId": 14,
+            "activityName": "General-Unassigned"
+        },
+        {
+            "activityId": 15,
+            "activityName": "HolyDay"
+        }
+    ]
+}

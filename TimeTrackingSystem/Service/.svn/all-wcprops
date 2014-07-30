@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/experiontts/!svn/ver/16/trunk/source/TimeTrackingSystem/TimeTrackingSystem/Service
+END
+TTRepository.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/experiontts/!svn/ver/14/trunk/source/TimeTrackingSystem/TimeTrackingSystem/Service/TTRepository.m
+END
+TTUserService.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/experiontts/!svn/ver/16/trunk/source/TimeTrackingSystem/TimeTrackingSystem/Service/TTUserService.m
+END
+TTServiceFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/experiontts/!svn/ver/15/trunk/source/TimeTrackingSystem/TimeTrackingSystem/Service/TTServiceFactory.h
+END
+TTServiceFactory.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/experiontts/!svn/ver/15/trunk/source/TimeTrackingSystem/TimeTrackingSystem/Service/TTServiceFactory.m
+END
+TTRepository.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/experiontts/!svn/ver/14/trunk/source/TimeTrackingSystem/TimeTrackingSystem/Service/TTRepository.h
+END
+TTUserService.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/experiontts/!svn/ver/15/trunk/source/TimeTrackingSystem/TimeTrackingSystem/Service/TTUserService.h
+END

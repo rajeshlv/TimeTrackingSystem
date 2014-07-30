@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55611AC2192F0AAE00E33BA0 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55611AC1192F0AAE00E33BA0 /* TPKeyboardAvoidingTableView.m */; };
+		55E83294192E266C009B86BB /* TTLoginCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E83292192E266C009B86BB /* TTLoginCustomCell.m */; };
+		55E83295192E266C009B86BB /* TTLoginCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55E83293192E266C009B86BB /* TTLoginCustomCell.xib */; };
+		E1576E13192B317D007ABBF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1576E12192B317D007ABBF0 /* Foundation.framework */; };
+		E1576E15192B317D007ABBF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1576E14192B317D007ABBF0 /* CoreGraphics.framework */; };
+		E1576E17192B317D007ABBF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1576E16192B317D007ABBF0 /* UIKit.framework */; };
+		E1576E19192B317D007ABBF0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1576E18192B317D007ABBF0 /* CoreData.framework */; };
+		E1576E1F192B317D007ABBF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1576E1D192B317D007ABBF0 /* InfoPlist.strings */; };
+		E1576E21192B317D007ABBF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E20192B317D007ABBF0 /* main.m */; };
+		E1576E28192B317D007ABBF0 /* TimeTrackingSystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1576E26192B317D007ABBF0 /* TimeTrackingSystem.xcdatamodeld */; };
+		E1576E2A192B317D007ABBF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1576E29192B317D007ABBF0 /* Images.xcassets */; };
+		E1576E31192B317D007ABBF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1576E30192B317D007ABBF0 /* XCTest.framework */; };
+		E1576E32192B317D007ABBF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1576E12192B317D007ABBF0 /* Foundation.framework */; };
+		E1576E33192B317D007ABBF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1576E16192B317D007ABBF0 /* UIKit.framework */; };
+		E1576E34192B317D007ABBF0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1576E18192B317D007ABBF0 /* CoreData.framework */; };
+		E1576E3C192B317D007ABBF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1576E3A192B317D007ABBF0 /* InfoPlist.strings */; };
+		E1576E3E192B317D007ABBF0 /* TimeTrackingSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E3D192B317D007ABBF0 /* TimeTrackingSystemTests.m */; };
+		E1576E4E192B3957007ABBF0 /* TTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E4A192B3957007ABBF0 /* TTSAppDelegate.m */; };
+		E1576E5D192B3A2B007ABBF0 /* TTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E5C192B3A2B007ABBF0 /* TTUtility.m */; };
+		E1576E62192B3A97007ABBF0 /* TTServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E61192B3A97007ABBF0 /* TTServiceFactory.m */; };
+		E1576E65192B3CC0007ABBF0 /* TimeTrackingSystemiPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1576E64192B3CC0007ABBF0 /* TimeTrackingSystemiPhone.storyboard */; };
+		E1576E68192B3DD6007ABBF0 /* TTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E67192B3DD6007ABBF0 /* TTLoginViewController.m */; };
+		E1576E6A192B5161007ABBF0 /* tts.json in Resources */ = {isa = PBXBuildFile; fileRef = E1576E69192B5161007ABBF0 /* tts.json */; };
+		E1576E6E192B543E007ABBF0 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E6D192B543E007ABBF0 /* NSDate+Utilities.m */; };
+		E1576E71192B57BD007ABBF0 /* TTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E70192B57BD007ABBF0 /* TTBaseViewController.m */; };
+		E1576E74192B5C22007ABBF0 /* TTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E73192B5C22007ABBF0 /* TTHomeViewController.m */; };
+		E1576E77192B627A007ABBF0 /* TTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E76192B627A007ABBF0 /* TTDetailViewController.m */; };
+		E1576E7B192B78F4007ABBF0 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = E1576E7A192B78F4007ABBF0 /* user.json */; };
+		E1576E7F192B7E22007ABBF0 /* TTRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E7E192B7E22007ABBF0 /* TTRepository.m */; };
+		E1576E86192B838E007ABBF0 /* NSManagedObject+TTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E85192B838E007ABBF0 /* NSManagedObject+TTAdditions.m */; };
+		E1576E89192B83E0007ABBF0 /* NSFileManager+TTDirectories.m in Sources */ = {isa = PBXBuildFile; fileRef = E1576E88192B83E0007ABBF0 /* NSFileManager+TTDirectories.m */; };
+		E1B07A39192CACA9002D7A17 /* TTEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B07A38192CACA9002D7A17 /* TTEntry.m */; };
+		E1B07A3C192CACAA002D7A17 /* TTActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B07A3B192CACAA002D7A17 /* TTActivity.m */; };
+		E1B07A3F192CACAA002D7A17 /* TTProject.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B07A3E192CACAA002D7A17 /* TTProject.m */; };
+		E1B07A42192CACAA002D7A17 /* TTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B07A41192CACAA002D7A17 /* TTUser.m */; };
+		E1B07A45192CAEB9002D7A17 /* TTUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B07A44192CAEB9002D7A17 /* TTUserService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1576E35192B317D007ABBF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1576E07192B317D007ABBF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1576E0E192B317D007ABBF0;
+			remoteInfo = TimeTrackingSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55611AC0192F0AAE00E33BA0 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		55611AC1192F0AAE00E33BA0 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		55E83291192E266C009B86BB /* TTLoginCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoginCustomCell.h; sourceTree = "<group>"; };
+		55E83292192E266C009B86BB /* TTLoginCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginCustomCell.m; sourceTree = "<group>"; };
+		55E83293192E266C009B86BB /* TTLoginCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTLoginCustomCell.xib; sourceTree = "<group>"; };
+		E1576E0F192B317D007ABBF0 /* TimeTrackingSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTrackingSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1576E12192B317D007ABBF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1576E14192B317D007ABBF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1576E16192B317D007ABBF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1576E18192B317D007ABBF0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E1576E1C192B317D007ABBF0 /* TimeTrackingSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeTrackingSystem-Info.plist"; sourceTree = "<group>"; };
+		E1576E1E192B317D007ABBF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1576E20192B317D007ABBF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1576E22192B317D007ABBF0 /* TimeTrackingSystem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeTrackingSystem-Prefix.pch"; sourceTree = "<group>"; };
+		E1576E27192B317D007ABBF0 /* TimeTrackingSystem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeTrackingSystem.xcdatamodel; sourceTree = "<group>"; };
+		E1576E29192B317D007ABBF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1576E2F192B317D007ABBF0 /* TimeTrackingSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTrackingSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1576E30192B317D007ABBF0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E1576E39192B317D007ABBF0 /* TimeTrackingSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeTrackingSystemTests-Info.plist"; sourceTree = "<group>"; };
+		E1576E3B192B317D007ABBF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1576E3D192B317D007ABBF0 /* TimeTrackingSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTrackingSystemTests.m; sourceTree = "<group>"; };
+		E1576E49192B3957007ABBF0 /* TTSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSAppDelegate.h; sourceTree = "<group>"; };
+		E1576E4A192B3957007ABBF0 /* TTSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSAppDelegate.m; sourceTree = "<group>"; };
+		E1576E5B192B3A2B007ABBF0 /* TTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUtility.h; sourceTree = "<group>"; };
+		E1576E5C192B3A2B007ABBF0 /* TTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUtility.m; sourceTree = "<group>"; };
+		E1576E60192B3A97007ABBF0 /* TTServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTServiceFactory.h; sourceTree = "<group>"; };
+		E1576E61192B3A97007ABBF0 /* TTServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTServiceFactory.m; sourceTree = "<group>"; };
+		E1576E63192B3AB7007ABBF0 /* TTConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTConstants.h; sourceTree = "<group>"; };
+		E1576E64192B3CC0007ABBF0 /* TimeTrackingSystemiPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TimeTrackingSystemiPhone.storyboard; sourceTree = "<group>"; };
+		E1576E66192B3DD6007ABBF0 /* TTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoginViewController.h; sourceTree = "<group>"; };
+		E1576E67192B3DD6007ABBF0 /* TTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginViewController.m; sourceTree = "<group>"; };
+		E1576E69192B5161007ABBF0 /* tts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tts.json; sourceTree = "<group>"; };
+		E1576E6C192B543E007ABBF0 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		E1576E6D192B543E007ABBF0 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		E1576E6F192B57BD007ABBF0 /* TTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseViewController.h; sourceTree = "<group>"; };
+		E1576E70192B57BD007ABBF0 /* TTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBaseViewController.m; sourceTree = "<group>"; };
+		E1576E72192B5C22007ABBF0 /* TTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHomeViewController.h; sourceTree = "<group>"; };
+		E1576E73192B5C22007ABBF0 /* TTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHomeViewController.m; sourceTree = "<group>"; };
+		E1576E75192B627A007ABBF0 /* TTDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDetailViewController.h; sourceTree = "<group>"; };
+		E1576E76192B627A007ABBF0 /* TTDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDetailViewController.m; sourceTree = "<group>"; };
+		E1576E7A192B78F4007ABBF0 /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		E1576E7D192B7E22007ABBF0 /* TTRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRepository.h; sourceTree = "<group>"; };
+		E1576E7E192B7E22007ABBF0 /* TTRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRepository.m; sourceTree = "<group>"; };
+		E1576E84192B838E007ABBF0 /* NSManagedObject+TTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+TTAdditions.h"; sourceTree = "<group>"; };
+		E1576E85192B838E007ABBF0 /* NSManagedObject+TTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+TTAdditions.m"; sourceTree = "<group>"; };
+		E1576E87192B83E0007ABBF0 /* NSFileManager+TTDirectories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TTDirectories.h"; sourceTree = "<group>"; };
+		E1576E88192B83E0007ABBF0 /* NSFileManager+TTDirectories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TTDirectories.m"; sourceTree = "<group>"; };
+		E1B07A37192CACA9002D7A17 /* TTEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEntry.h; sourceTree = "<group>"; };
+		E1B07A38192CACA9002D7A17 /* TTEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEntry.m; sourceTree = "<group>"; };
+		E1B07A3A192CACAA002D7A17 /* TTActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTActivity.h; sourceTree = "<group>"; };
+		E1B07A3B192CACAA002D7A17 /* TTActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTActivity.m; sourceTree = "<group>"; };
+		E1B07A3D192CACAA002D7A17 /* TTProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTProject.h; sourceTree = "<group>"; };
+		E1B07A3E192CACAA002D7A17 /* TTProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTProject.m; sourceTree = "<group>"; };
+		E1B07A40192CACAA002D7A17 /* TTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUser.h; sourceTree = "<group>"; };
+		E1B07A41192CACAA002D7A17 /* TTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUser.m; sourceTree = "<group>"; };
+		E1B07A43192CAEB9002D7A17 /* TTUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUserService.h; sourceTree = "<group>"; };
+		E1B07A44192CAEB9002D7A17 /* TTUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1576E0C192B317D007ABBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1576E15192B317D007ABBF0 /* CoreGraphics.framework in Frameworks */,
+				E1576E19192B317D007ABBF0 /* CoreData.framework in Frameworks */,
+				E1576E17192B317D007ABBF0 /* UIKit.framework in Frameworks */,
+				E1576E13192B317D007ABBF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1576E2C192B317D007ABBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1576E31192B317D007ABBF0 /* XCTest.framework in Frameworks */,
+				E1576E34192B317D007ABBF0 /* CoreData.framework in Frameworks */,
+				E1576E33192B317D007ABBF0 /* UIKit.framework in Frameworks */,
+				E1576E32192B317D007ABBF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55529566192F05F100718C06 /* ExternalLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				55611ABF192F0AAE00E33BA0 /* TPKeyboardAvoidingTableView */,
+			);
+			name = ExternalLibraries;
+			sourceTree = "<group>";
+		};
+		55611ABF192F0AAE00E33BA0 /* TPKeyboardAvoidingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				55611AC0192F0AAE00E33BA0 /* TPKeyboardAvoidingTableView.h */,
+				55611AC1192F0AAE00E33BA0 /* TPKeyboardAvoidingTableView.m */,
+			);
+			name = TPKeyboardAvoidingTableView;
+			path = "External Libraries/TPKeyboardAvoidingTableView";
+			sourceTree = "<group>";
+		};
+		55E8328F192E1462009B86BB /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				55E83290192E2624009B86BB /* LoginViewCustomCell */,
+				E1576E66192B3DD6007ABBF0 /* TTLoginViewController.h */,
+				E1576E67192B3DD6007ABBF0 /* TTLoginViewController.m */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
+		55E83290192E2624009B86BB /* LoginViewCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				55E83291192E266C009B86BB /* TTLoginCustomCell.h */,
+				55E83292192E266C009B86BB /* TTLoginCustomCell.m */,
+				55E83293192E266C009B86BB /* TTLoginCustomCell.xib */,
+			);
+			name = LoginViewCustomCell;
+			sourceTree = "<group>";
+		};
+		E1576E06192B317D007ABBF0 = {
+			isa = PBXGroup;
+			children = (
+				E1576E1A192B317D007ABBF0 /* TimeTrackingSystem */,
+				E1576E37192B317D007ABBF0 /* TimeTrackingSystemTests */,
+				E1576E11192B317D007ABBF0 /* Frameworks */,
+				E1576E10192B317D007ABBF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1576E10192B317D007ABBF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E0F192B317D007ABBF0 /* TimeTrackingSystem.app */,
+				E1576E2F192B317D007ABBF0 /* TimeTrackingSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1576E11192B317D007ABBF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E12192B317D007ABBF0 /* Foundation.framework */,
+				E1576E14192B317D007ABBF0 /* CoreGraphics.framework */,
+				E1576E16192B317D007ABBF0 /* UIKit.framework */,
+				E1576E18192B317D007ABBF0 /* CoreData.framework */,
+				E1576E30192B317D007ABBF0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1576E1A192B317D007ABBF0 /* TimeTrackingSystem */ = {
+			isa = PBXGroup;
+			children = (
+				55529566192F05F100718C06 /* ExternalLibraries */,
+				E1576E5E192B3A7B007ABBF0 /* Constants */,
+				E1576E5F192B3A7B007ABBF0 /* Service */,
+				E1576E48192B3957007ABBF0 /* appDelegate */,
+				E1576E4B192B3957007ABBF0 /* Model */,
+				E1576E4C192B3957007ABBF0 /* utilities */,
+				E1576E4D192B3957007ABBF0 /* View */,
+				E1576E29192B317D007ABBF0 /* Images.xcassets */,
+				E1576E64192B3CC0007ABBF0 /* TimeTrackingSystemiPhone.storyboard */,
+				E1576E26192B317D007ABBF0 /* TimeTrackingSystem.xcdatamodeld */,
+				E1576E1B192B317D007ABBF0 /* Supporting Files */,
+			);
+			path = TimeTrackingSystem;
+			sourceTree = "<group>";
+		};
+		E1576E1B192B317D007ABBF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E7A192B78F4007ABBF0 /* user.json */,
+				E1576E69192B5161007ABBF0 /* tts.json */,
+				E1576E1C192B317D007ABBF0 /* TimeTrackingSystem-Info.plist */,
+				E1576E1D192B317D007ABBF0 /* InfoPlist.strings */,
+				E1576E20192B317D007ABBF0 /* main.m */,
+				E1576E22192B317D007ABBF0 /* TimeTrackingSystem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1576E37192B317D007ABBF0 /* TimeTrackingSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E3D192B317D007ABBF0 /* TimeTrackingSystemTests.m */,
+				E1576E38192B317D007ABBF0 /* Supporting Files */,
+			);
+			path = TimeTrackingSystemTests;
+			sourceTree = "<group>";
+		};
+		E1576E38192B317D007ABBF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E39192B317D007ABBF0 /* TimeTrackingSystemTests-Info.plist */,
+				E1576E3A192B317D007ABBF0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1576E48192B3957007ABBF0 /* appDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E49192B3957007ABBF0 /* TTSAppDelegate.h */,
+				E1576E4A192B3957007ABBF0 /* TTSAppDelegate.m */,
+			);
+			path = appDelegate;
+			sourceTree = "<group>";
+		};
+		E1576E4B192B3957007ABBF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1B07A37192CACA9002D7A17 /* TTEntry.h */,
+				E1B07A38192CACA9002D7A17 /* TTEntry.m */,
+				E1B07A3A192CACAA002D7A17 /* TTActivity.h */,
+				E1B07A3B192CACAA002D7A17 /* TTActivity.m */,
+				E1B07A3D192CACAA002D7A17 /* TTProject.h */,
+				E1B07A3E192CACAA002D7A17 /* TTProject.m */,
+				E1B07A40192CACAA002D7A17 /* TTUser.h */,
+				E1B07A41192CACAA002D7A17 /* TTUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1576E4C192B3957007ABBF0 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E6B192B543E007ABBF0 /* Categories */,
+				E1576E5B192B3A2B007ABBF0 /* TTUtility.h */,
+				E1576E5C192B3A2B007ABBF0 /* TTUtility.m */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		E1576E4D192B3957007ABBF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55E8328F192E1462009B86BB /* LoginView */,
+				E1576E6F192B57BD007ABBF0 /* TTBaseViewController.h */,
+				E1576E70192B57BD007ABBF0 /* TTBaseViewController.m */,
+				E1576E72192B5C22007ABBF0 /* TTHomeViewController.h */,
+				E1576E73192B5C22007ABBF0 /* TTHomeViewController.m */,
+				E1576E75192B627A007ABBF0 /* TTDetailViewController.h */,
+				E1576E76192B627A007ABBF0 /* TTDetailViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1576E5E192B3A7B007ABBF0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E63192B3AB7007ABBF0 /* TTConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E1576E5F192B3A7B007ABBF0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E8A192B8899007ABBF0 /* NetworkManager */,
+				E1576E7C192B7D9A007ABBF0 /* DataManager */,
+				E1576E60192B3A97007ABBF0 /* TTServiceFactory.h */,
+				E1576E61192B3A97007ABBF0 /* TTServiceFactory.m */,
+				E1B07A43192CAEB9002D7A17 /* TTUserService.h */,
+				E1B07A44192CAEB9002D7A17 /* TTUserService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E1576E6B192B543E007ABBF0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E6C192B543E007ABBF0 /* NSDate+Utilities.h */,
+				E1576E6D192B543E007ABBF0 /* NSDate+Utilities.m */,
+				E1576E84192B838E007ABBF0 /* NSManagedObject+TTAdditions.h */,
+				E1576E85192B838E007ABBF0 /* NSManagedObject+TTAdditions.m */,
+				E1576E87192B83E0007ABBF0 /* NSFileManager+TTDirectories.h */,
+				E1576E88192B83E0007ABBF0 /* NSFileManager+TTDirectories.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E1576E7C192B7D9A007ABBF0 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				E1576E7D192B7E22007ABBF0 /* TTRepository.h */,
+				E1576E7E192B7E22007ABBF0 /* TTRepository.m */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		E1576E8A192B8899007ABBF0 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetworkManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1576E0E192B317D007ABBF0 /* TimeTrackingSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1576E41192B317D007ABBF0 /* Build configuration list for PBXNativeTarget "TimeTrackingSystem" */;
+			buildPhases = (
+				E1576E0B192B317D007ABBF0 /* Sources */,
+				E1576E0C192B317D007ABBF0 /* Frameworks */,
+				E1576E0D192B317D007ABBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTrackingSystem;
+			productName = TimeTrackingSystem;
+			productReference = E1576E0F192B317D007ABBF0 /* TimeTrackingSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1576E2E192B317D007ABBF0 /* TimeTrackingSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1576E44192B317D007ABBF0 /* Build configuration list for PBXNativeTarget "TimeTrackingSystemTests" */;
+			buildPhases = (
+				E1576E2B192B317D007ABBF0 /* Sources */,
+				E1576E2C192B317D007ABBF0 /* Frameworks */,
+				E1576E2D192B317D007ABBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1576E36192B317D007ABBF0 /* PBXTargetDependency */,
+			);
+			name = TimeTrackingSystemTests;
+			productName = TimeTrackingSystemTests;
+			productReference = E1576E2F192B317D007ABBF0 /* TimeTrackingSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1576E07192B317D007ABBF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Experion;
+				TargetAttributes = {
+					E1576E2E192B317D007ABBF0 = {
+						TestTargetID = E1576E0E192B317D007ABBF0;
+					};
+				};
+			};
+			buildConfigurationList = E1576E0A192B317D007ABBF0 /* Build configuration list for PBXProject "TimeTrackingSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1576E06192B317D007ABBF0;
+			productRefGroup = E1576E10192B317D007ABBF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1576E0E192B317D007ABBF0 /* TimeTrackingSystem */,
+				E1576E2E192B317D007ABBF0 /* TimeTrackingSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1576E0D192B317D007ABBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E83295192E266C009B86BB /* TTLoginCustomCell.xib in Resources */,
+				E1576E65192B3CC0007ABBF0 /* TimeTrackingSystemiPhone.storyboard in Resources */,
+				E1576E1F192B317D007ABBF0 /* InfoPlist.strings in Resources */,
+				E1576E2A192B317D007ABBF0 /* Images.xcassets in Resources */,
+				E1576E6A192B5161007ABBF0 /* tts.json in Resources */,
+				E1576E7B192B78F4007ABBF0 /* user.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1576E2D192B317D007ABBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1576E3C192B317D007ABBF0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1576E0B192B317D007ABBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1576E21192B317D007ABBF0 /* main.m in Sources */,
+				55611AC2192F0AAE00E33BA0 /* TPKeyboardAvoidingTableView.m in Sources */,
+				E1576E7F192B7E22007ABBF0 /* TTRepository.m in Sources */,
+				E1576E5D192B3A2B007ABBF0 /* TTUtility.m in Sources */,
+				E1576E77192B627A007ABBF0 /* TTDetailViewController.m in Sources */,
+				E1576E89192B83E0007ABBF0 /* NSFileManager+TTDirectories.m in Sources */,
+				55E83294192E266C009B86BB /* TTLoginCustomCell.m in Sources */,
+				E1576E71192B57BD007ABBF0 /* TTBaseViewController.m in Sources */,
+				E1B07A45192CAEB9002D7A17 /* TTUserService.m in Sources */,
+				E1576E74192B5C22007ABBF0 /* TTHomeViewController.m in Sources */,
+				E1576E6E192B543E007ABBF0 /* NSDate+Utilities.m in Sources */,
+				E1576E4E192B3957007ABBF0 /* TTSAppDelegate.m in Sources */,
+				E1B07A3F192CACAA002D7A17 /* TTProject.m in Sources */,
+				E1B07A39192CACA9002D7A17 /* TTEntry.m in Sources */,
+				E1576E68192B3DD6007ABBF0 /* TTLoginViewController.m in Sources */,
+				E1B07A3C192CACAA002D7A17 /* TTActivity.m in Sources */,
+				E1576E28192B317D007ABBF0 /* TimeTrackingSystem.xcdatamodeld in Sources */,
+				E1B07A42192CACAA002D7A17 /* TTUser.m in Sources */,
+				E1576E62192B3A97007ABBF0 /* TTServiceFactory.m in Sources */,
+				E1576E86192B838E007ABBF0 /* NSManagedObject+TTAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1576E2B192B317D007ABBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1576E3E192B317D007ABBF0 /* TimeTrackingSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1576E36192B317D007ABBF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1576E0E192B317D007ABBF0 /* TimeTrackingSystem */;
+			targetProxy = E1576E35192B317D007ABBF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1576E1D192B317D007ABBF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1576E1E192B317D007ABBF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1576E3A192B317D007ABBF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1576E3B192B317D007ABBF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1576E3F192B317D007ABBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1576E40192B317D007ABBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1576E42192B317D007ABBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTrackingSystem/TimeTrackingSystem-Prefix.pch";
+				INFOPLIST_FILE = "TimeTrackingSystem/TimeTrackingSystem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1576E43192B317D007ABBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTrackingSystem/TimeTrackingSystem-Prefix.pch";
+				INFOPLIST_FILE = "TimeTrackingSystem/TimeTrackingSystem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E1576E45192B317D007ABBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeTrackingSystem.app/TimeTrackingSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTrackingSystem/TimeTrackingSystem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimeTrackingSystemTests/TimeTrackingSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E1576E46192B317D007ABBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeTrackingSystem.app/TimeTrackingSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTrackingSystem/TimeTrackingSystem-Prefix.pch";
+				INFOPLIST_FILE = "TimeTrackingSystemTests/TimeTrackingSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1576E0A192B317D007ABBF0 /* Build configuration list for PBXProject "TimeTrackingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1576E3F192B317D007ABBF0 /* Debug */,
+				E1576E40192B317D007ABBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1576E41192B317D007ABBF0 /* Build configuration list for PBXNativeTarget "TimeTrackingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1576E42192B317D007ABBF0 /* Debug */,
+				E1576E43192B317D007ABBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1576E44192B317D007ABBF0 /* Build configuration list for PBXNativeTarget "TimeTrackingSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1576E45192B317D007ABBF0 /* Debug */,
+				E1576E46192B317D007ABBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1576E26192B317D007ABBF0 /* TimeTrackingSystem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1576E27192B317D007ABBF0 /* TimeTrackingSystem.xcdatamodel */,
+			);
+			currentVersion = E1576E27192B317D007ABBF0 /* TimeTrackingSystem.xcdatamodel */;
+			path = TimeTrackingSystem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1576E07192B317D007ABBF0 /* Project object */;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0406FF0F-1F6A-4311-A356-4CB84A509D11</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TimeTrackingSystem</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5A9290D3-7792-4F93-B443-131E2D36291C</key>
+		<string>https://varnam.svn.cloudforge.com/experiontts</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/source/TimeTrackingSystem/TimeTrackingSystem.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5A9290D3-7792-4F93-B443-131E2D36291C</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>5A9290D3-7792-4F93-B443-131E2D36291C</key>
+		<string>https://varnam.svn.cloudforge.com/experiontts</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://varnam.svn.cloudforge.com/experiontts/trunk/source/TimeTrackingSystem/TimeTrackingSystem.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5A9290D3-7792-4F93-B443-131E2D36291C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5A9290D3-7792-4F93-B443-131E2D36291C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TTS App</string>
+		</dict>
+	</array>
+</dict>
+</plist>

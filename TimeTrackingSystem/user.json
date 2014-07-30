@@ -1,0 +1,71 @@
+{
+    "User": [
+             {
+             "empId": "1",
+             "empName": "Suresh VP",
+             "empCode": "119"
+             },
+             {
+             "empId": "2",
+             "empName": "Abhilash Kishore",
+             "empCode": "2"
+             },
+             {
+             "empId": "3",
+             "empName": "Vimal Benni",
+             "empCode": "3"
+             },
+             {
+             "empId": "4",
+             "empName": "Pradeep",
+             "empCode": "4"
+             },
+             {
+             "empId": "5",
+             "empName": "Rebin",
+             "empCode": "5"
+             },
+             {
+             "empId": "6",
+             "empName": "Rajesh V",
+             "empCode": "6"
+             },
+             {
+             "empId": "7",
+             "empName": "Vipin",
+             "empCode": "7"
+             },
+             {
+             "empId": "8",
+             "empName": "Roy",
+             "empCode": "8"
+             },
+             {
+             "empId": "9",
+             "empName": "Rakhi",
+             "empCode": "9"
+             }
+             ],
+    "Projects": [
+                 {
+                 "projectCode": "ORG-10-ENT",
+                 "projectName": "Entertainment(Sports, XBang)"
+                 },
+                 {
+                 "projectCode": "ORG-09-GEN ",
+                 "projectName": "General Unassigned, Free time"
+                 },
+                 {
+                 "projectCode": "ORG-04-EXP ",
+                 "projectName": "Organisational Activities"
+                 },
+                 {
+                 "projectCode": "TRG-04-EXP ",
+                 "projectName": "Training"
+                 },
+                 {
+                 "projectCode": "TSR-096",
+                 "projectName": "Veeebow"
+                 }
+                 ]
+}
