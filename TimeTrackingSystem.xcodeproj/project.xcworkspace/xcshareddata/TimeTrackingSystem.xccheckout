@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0406FF0F-1F6A-4311-A356-4CB84A509D11</string>
+	<string>DE09AA0F-1671-44BC-9210-AFB5F32C1AB9</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TimeTrackingSystem</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>0E4023B1-D0BD-4D2E-B0A3-A5D17DC06E35</key>
+		<string>https://github.com/rajeshlv/TimeTrackingSystem.git</string>
 		<key>5A9290D3-7792-4F93-B443-131E2D36291C</key>
 		<string>https://varnam.svn.cloudforge.com/experiontts</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>trunk/source/TimeTrackingSystem/TimeTrackingSystem.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>0E4023B1-D0BD-4D2E-B0A3-A5D17DC06E35</key>
+		<string>../..</string>
 		<key>5A9290D3-7792-4F93-B443-131E2D36291C</key>
 		<string>../../../../..</string>
 	</dict>
@@ -26,13 +30,21 @@
 		<string>https://varnam.svn.cloudforge.com/experiontts</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://varnam.svn.cloudforge.com/experiontts/trunk/source/TimeTrackingSystem/TimeTrackingSystem.xcodeproj</string>
+	<string>https://github.com/rajeshlv/TimeTrackingSystem.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>5A9290D3-7792-4F93-B443-131E2D36291C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E4023B1-D0BD-4D2E-B0A3-A5D17DC06E35</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TimeTrackingSystem</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
 			<string>branches</string>
