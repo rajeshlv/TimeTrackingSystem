@@ -15,6 +15,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     return YES;
+    
+    NSLog(@"Log added for commit");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
