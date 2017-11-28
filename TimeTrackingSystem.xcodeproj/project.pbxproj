@@ -405,6 +405,10 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Experion;
 				TargetAttributes = {
+					E1576E0E192B317D007ABBF0 = {
+						DevelopmentTeam = VVAJM6G82V;
+						ProvisioningStyle = Manual;
+					};
 					E1576E2E192B317D007ABBF0 = {
 						TestTargetID = E1576E0E192B317D007ABBF0;
 					};
@@ -595,10 +599,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Velon Ltd (UH6865JUHS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: EYME Technologies Pvt. Ltd.";
+				DEVELOPMENT_TEAM = VVAJM6G82V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimeTrackingSystem/TimeTrackingSystem-Prefix.pch";
 				INFOPLIST_FILE = "TimeTrackingSystem/TimeTrackingSystem-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = velon.ey.com.velon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "329e4b02-6410-4b13-be67-d0e98a22caf8";
+				PROVISIONING_PROFILE_SPECIFIER = Velon;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -608,10 +618,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: EYME Technologies Pvt. Ltd.";
+				DEVELOPMENT_TEAM = VVAJM6G82V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimeTrackingSystem/TimeTrackingSystem-Prefix.pch";
 				INFOPLIST_FILE = "TimeTrackingSystem/TimeTrackingSystem-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = velon.ey.com.velon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "329e4b02-6410-4b13-be67-d0e98a22caf8";
+				PROVISIONING_PROFILE_SPECIFIER = Velon;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
